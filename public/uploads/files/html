@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Internet Marketing | SEO | Website Optimization | Analytics</title>
+		<meta name="description" content="Specialises in many aspects of internet marketing, website optimisation and social media, Search Engine Optimization">
+		<meta name="author" content="Inleads IT">
+		
+		<!-- Devices Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		
+		<!-- Put favicon.ico and apple-touch-icon(s).png in the images folder -->
+	    <link rel="shortcut icon" href="assets/images/favicon.ico">
+		    	
+		<link href='https://fonts.googleapis.com/css?family=Oswald:400,100,300,500,700%7CLato:400,300,700,900&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		
+		<!-- Plugins CSS files -->
+		<link rel="stylesheet" href="assets/css/assets.css">
+		
+		<!-- Template CSS files -->
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/shortcodes.css">
+		<link id="theme_css" rel="stylesheet" href="assets/css/light.css">
+		<link id="skin_css" rel="stylesheet" href="assets/css/skins/default.css">
+		
+	</head>
+	<body class="soon-page">
+
+	    <!-- site preloader start -->
+		<div class="page-loader"></div>
+		<!-- site preloader end -->
+
+		<!-- Content Start -->
+		<div id="contentWrapper">
+			
+			<div class="container">
+				
+				<div class="clearfix over-hidden">
+					<!-- Logo start -->
+			    	<div class="logo soon-logo">
+				    	<a href="index.html"><img alt="" src="assets/images/logo.png"></a>
+				    </div>
+				    <!-- Logo end -->
+				    
+				</div>
+							    
+			    	
+		    	<div class="soon-heading t-center">
+		    		<h1 class="bold soon-lg-head white uppercase">Coming Soon!</h1>
+		    	
+			    	<h2 class="white uppercase">This page is under construction</h2>
+			    	
+			    	
+		    	</div>
+		    </div>
+		    <div class="white-tr-bg-light">
+		    	<div class="p-a-3 m-a-3 m-b-0">
+					<div id="count-8" class="lg-countdown no-border style-4 white t-center"></div>
+				</div>
+			</div>   	
+			<div class="container">    
+			    
+			    <div class="tbl wid-50 m-b-3 lg-newsletters">
+			    		<form action="link-to-your-site" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate class="boo-nl m-t-2">
+						    		
+				    		<h3 class="black-tr-bg white m-b-1 t-center uppercase light-font p-a-2">Subscribe to our NewsLetters</h3>
+
+				    		<input class="form-control inl-txt" type="email" value="" name="EMAIL" id="mce-EMAIL" placeholder="Enter your email here" required />
+				    		
+				    		<input type="submit" name="subscribe" id="mc-embedded-subscribe" class="btn main-bg uppercase" value="Notify Me" />
+				    		
+				    		<div class="hidden"><input type="text" name="name-of-the-hidden-field" value=""></div>
+				    		
+								 <div class="nl-note"><span></span></div>
+								 
+				    	</form>
+			    	</div>
+
+			    <!-- footer social links right cell start -->
+			    <div class="social-list m-auto tbl m-t-2 over-hidden">
+				    <a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Facebook"><i class="fa fa-facebook ic-facebook white lg-icon"></i></a>
+					<a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Twitter"><i class="fa fa-twitter ic-twitter white lg-icon"></i></a>
+					<a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Linkedin"><i class="fa fa-linkedin ic-linkedin white lg-icon"></i></a>
+					<a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Dribbble"><i class="fa fa-dribbble ic-dribbble white lg-icon"></i></a>
+					<a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Google Plus"><i class="fa fa-google-plus ic-gplus white lg-icon"></i></a>
+			    </div>
+			    <!-- footer social links right cell end -->
+			    <div class="clearfix margin-bottom-15"></div>
+			    <!-- footer copyrights left cell -->
+	    		<div class="copyrights t-center white m-t-3">© Copyrights <b class="main-color">Inleads IT</b> 2016. All rights reserved.</div>
+		    						    										    
+		    </div>
+			
+		</div>
+		<!-- Content End -->
+	    
+	    <script type="text/javascript" src="assets/js/jquery-1.12.0.min.js"></script>
+	    <!-- Load JS plugins file -->
+ 		<script type="text/javascript" src="assets/js/assets.js"></script>
+				
+		<!-- general script file -->
+		<script type="text/javascript" src="assets/js/script.js"></script>
+
+		<script type="text/javascript">
+			// countdown 8
+			$('#count-8').countdown('2016/09/25', function(event) {
+				var $this = $(this).html(event.strftime(''
+				+ '<div><span class="main-color">%m</span> Months</div>'
+				+ '<div><span class="main-color">%d</span> Days</div>'
+				+ '<div><span class="main-color">%H</span> Hours</div>'
+				+ '<div><span class="main-color">%M</span> Minutes</div>'
+				+ '<div><span class="main-color">%S</span> Seconds</div>'));
+			});
+		</script>
+		
+	</body>
+</html>
